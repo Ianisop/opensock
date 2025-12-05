@@ -30,3 +30,29 @@ target_link_libraries(opensock
         $<$<BOOL:${WIN32}>:ws2_32>
 )
 
+include(CMakePackageConfigHelpers)
+
+target_sources(opensock
+    PRIVATE
+        src/socket/websock.cpp
+        src/socket/sslwebsock.cpp
+    PUBLIC
+        src/socket/websock.h
+        src/socket/sslwebsock.h
+)
+
+
+
+install(TARGETS opensock
+        EXPORT opensockTargets
+        ARCHIVE DESTINATION lib
+        LIBRARY DESTINATION lib
+        RUNTIME DESTINATION bin
+        INCLUDES DESTINATION include)
+
+install(EXPORT opensockTargets
+        FILE opensockTargets.cmake
+        NAMESPACE opensock::
+        DESTINATION lib/cmake/opensock)
+
+
