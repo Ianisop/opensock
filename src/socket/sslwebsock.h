@@ -5,6 +5,7 @@
 
 #include <string>
 
+namespace opensock {
 class SSLWebSock {
   int _socket = -1;
   SSL_CTX *_ctx = nullptr;
@@ -82,3 +83,4 @@ public:
     }
   }
 };
+} // namespace opensock

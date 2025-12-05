@@ -22,7 +22,7 @@
 #endif
 
 #include <cstddef>
-
+namespace opensock {
 class WebSock {
 public:
   WebSock(int domain, int type, int protocol, bool ssl_socket, bool server);
@@ -54,3 +54,4 @@ private:
   bool _ssl = false;
   SSLWebSock *_ssl_socket;
 };
+}; // namespace opensock
