@@ -1,2 +1,4 @@
 .cache/
 build/
+test_server.cpp
+test_client.cpp
