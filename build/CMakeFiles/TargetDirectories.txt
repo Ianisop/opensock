@@ -1,7 +1,0 @@
-/home/fishy/docs/opensock/build/CMakeFiles/opensock.dir
-/home/fishy/docs/opensock/build/CMakeFiles/edit_cache.dir
-/home/fishy/docs/opensock/build/CMakeFiles/rebuild_cache.dir
-/home/fishy/docs/opensock/build/CMakeFiles/list_install_components.dir
-/home/fishy/docs/opensock/build/CMakeFiles/install.dir
-/home/fishy/docs/opensock/build/CMakeFiles/install/local.dir
-/home/fishy/docs/opensock/build/CMakeFiles/install/strip.dir
