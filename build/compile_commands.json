@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/fishy/docs/opensock/build",
+  "command": "/usr/bin/c++  -I/home/fishy/docs/opensock/src/socket -std=gnu++20 -fPIC -o CMakeFiles/opensock.dir/src/socket/websock.cpp.o -c /home/fishy/docs/opensock/src/socket/websock.cpp",
+  "file": "/home/fishy/docs/opensock/src/socket/websock.cpp",
+  "output": "CMakeFiles/opensock.dir/src/socket/websock.cpp.o"
+},
+{
+  "directory": "/home/fishy/docs/opensock/build",
+  "command": "/usr/bin/c++  -I/home/fishy/docs/opensock/src/socket -std=gnu++20 -fPIC -o CMakeFiles/opensock.dir/src/socket/sslwebsock.cpp.o -c /home/fishy/docs/opensock/src/socket/sslwebsock.cpp",
+  "file": "/home/fishy/docs/opensock/src/socket/sslwebsock.cpp",
+  "output": "CMakeFiles/opensock.dir/src/socket/sslwebsock.cpp.o"
+}
+]

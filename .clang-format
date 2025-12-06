@@ -1,0 +1,28 @@
+# .clang-format
+BasedOnStyle: Google
+
+Language: Cpp
+Standard: c++20
+
+# Indentation
+IndentWidth: 4
+TabWidth: 2
+UseTab: Always
+
+# Braces
+BreakBeforeBraces: Allman
+
+# Line length
+ColumnLimit: 100
+
+# Pointer/reference alignment
+PointerAlignment: Left
+
+# Spaces
+SpacesBeforeTrailingComments: 2
+SpaceAfterCStyleCast: true
+
+# Control statements
+
+# Other
+ReflowComments: Always

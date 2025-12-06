@@ -1,0 +1,2 @@
+/usr/bin/ar qc libopensock.a CMakeFiles/opensock.dir/src/socket/websock.cpp.o CMakeFiles/opensock.dir/src/socket/sslwebsock.cpp.o
+/usr/bin/ranlib libopensock.a
